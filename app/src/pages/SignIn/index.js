@@ -16,13 +16,13 @@ export default function SignIn({ navigation }) {
 
   const loading = useSelector(state => state.auth.loading);
 
-  async function handleSubmit(idStudent) {
+  async function handleSubmit(data) {
     if (id === '') {
       Alert.alert('O ID precisa ser preenchido.');
       return;
     }
 
-    dispatch(signInRequest(idStudent));
+    dispatch(signInRequest(data));
   }
 
   return (

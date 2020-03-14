@@ -18,6 +18,7 @@ export const ConfirmContainer = styled.View`
   margin-top: -90px;
   border-radius: 4px;
   position: relative;
+
 `;
 
 export const CameraContainer = styled.View`
@@ -46,13 +47,11 @@ export const StyledTouchableOpacity = styled(TouchableOpacity)`
   align-items: center;
   justify-content: center;
 `;
-
 export const PendingView = styled.View`
   flex: 1;
   justify-content: flex-start;
   align-items: center;
 `;
-
 export const StyledText = styled.Text`
   font-size: 14px;
 `;

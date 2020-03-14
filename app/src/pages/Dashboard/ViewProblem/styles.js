@@ -39,11 +39,9 @@ export const NoOrderText = styled.Text`
   margin-top: 20px;
   text-align: center;
 `;
-
 export const StyledActivityIndicator = styled(ActivityIndicator)`
   padding: 20px;
 `;
-
 export const ProblemBox = styled.View`
   align-items: center;
   justify-content: space-between;
@@ -52,12 +50,10 @@ export const ProblemBox = styled.View`
   margin-bottom: 15px;
   border-radius: 4px;
 `;
-
 export const ProblemDescription = styled.Text`
   font-size: 16px;
   color: #999999;
 `;
-
 export const ProblemDate = styled.Text`
   font-size: 10px;
   margin-bottom: 8px;

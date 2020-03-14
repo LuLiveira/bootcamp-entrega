@@ -57,6 +57,7 @@ export default function Dashboard() {
 }
 
 Dashboard.propTypes = {
+  // eslint-disable-next-line react/no-unused-prop-types
   focused: PropTypes.bool,
 };
 

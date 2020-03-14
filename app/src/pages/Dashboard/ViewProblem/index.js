@@ -39,6 +39,10 @@ function ViewProblem({ navigation, route, isFocused }) {
       formatedDate: format(parseISO(order.createdAt), 'MM/dd/yyyy'),
     }));
 
+    // const formatedStartDate = item.start_date
+    // ? format(parseISO(item.start_date), 'MM/dd/yyyy')
+    // : null;
+
     const totalItems = response.data.count;
     setTotal(Math.ceil(totalItems / 7));
 
@@ -65,6 +69,7 @@ function ViewProblem({ navigation, route, isFocused }) {
       refreshList();
     }
     loadList();
+
   }, []);
 
   return (

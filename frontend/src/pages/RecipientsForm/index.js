@@ -117,18 +117,18 @@ export default function RecipientsForm({ history: navigation }) {
         <Content>
           <div className="data">
             <span>Nome</span>
-            <Input name="name" type="text" placeholder="John Doe" />
+            <Input name="name" type="text" placeholder="" />
           </div>
 
           <div className="grid1">
             <div className="data">
               <span>Rua</span>
-              <Input name="street" type="text" placeholder="Rua Beethoven" />
+              <Input name="street" type="text" placeholder="" />
             </div>
 
             <div className="data">
               <span>Número</span>
-              <Input name="number" type="number" placeholder="1729" />
+              <Input name="number" type="number" placeholder="" />
             </div>
 
             <div className="data">
@@ -140,19 +140,19 @@ export default function RecipientsForm({ history: navigation }) {
           <div className="grid2">
             <div className="data">
               <span>Cidade</span>
-              <Input name="city" type="text" placeholder="Diadema" />
+              <Input name="city" type="text" placeholder="" />
             </div>
 
             <div className="data">
               <span>Estado</span>
-              <Input name="state" type="text" placeholder="SP" />
+              <Input name="state" type="text" placeholder="" />
             </div>
 
             <div className="data">
               <span>CEP</span>
               <InputMask
                 name="cep"
-                placeholder="09131-390"
+                placeholder="11089-200"
                 mask="99999-999"
                 maskChar=" "
                 alwaysShowMask={false}

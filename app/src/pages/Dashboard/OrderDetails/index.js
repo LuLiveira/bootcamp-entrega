@@ -88,11 +88,13 @@ function OrderDetails({ route, navigation }) {
       ],
       { cancelable: false }
     );
+
+    // Alert.alert('A encomenda foi retirada com sucesso!');
   }
 
   return (
     <Container>
-      <InfoContainer persistentScrollbar>
+      <InfoContainer persistentScrollbar={true}>
         <OrderInfo>
           <InfoTitle>
             <Icon name="local-shipping" size={25} color="#7D40E7" />
